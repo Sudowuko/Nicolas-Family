@@ -27,23 +27,22 @@ header {
     padding: 15px;
 }
 
-.constant {
-    font-family: 'Merriweather Sans', sans-serif;
-    text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
-    text-align: center;
-}
-
-body,
-html {
+body {
     height: 100%;
-    background-image: url("https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+html {
+    background-image: url("https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
 * {
     box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+    text-align: center;
 }
 
 .row {
