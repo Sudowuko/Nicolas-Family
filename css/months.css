@@ -1,0 +1,132 @@
+/*Main Stuff*/
+
+h2,
+header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+body {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Background for each webpage */
+
+.background1 {
+    background-image: url("https://wallpapertag.com/wallpaper/full/4/1/2/602071-download-desktop-backgrounds-mountains-1920x1080-high-resolution.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background2 {
+    background-image: url("https://wallpaperset.com/w/full/6/e/a/453909.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background3 {
+    background-image: url("https://i.pinimg.com/originals/de/a2/cb/dea2cb9c19ec277332c02a15cfceff36.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background4 {
+    background-image: url("https://i.pinimg.com/originals/12/37/22/1237226a6d683bf354023e7a4062231c.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background5 {
+    background-image: url("https://wallpaperplay.com/walls/full/6/4/7/57132.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background6 {
+    background-image: url("https://wallpapertag.com/wallpaper/full/2/c/f/153815-large-desktop-backgrounds-beach-2127x1414.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background7 {
+    background-image: url("https://wallpaperplay.com/walls/full/b/e/1/261195.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background8 {
+    background-image: url("https://wallpaperaccess.com/full/87757.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background9 {
+    background-image: url("https://wallpaperplay.com/walls/full/5/d/6/85575.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background10 {
+    background-image: url("https://www.itl.cat/pngfile/big/13-138533_fall-background-wallpaper-fall-background-hd.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background11 {
+    background-image: url("https://wallpapercave.com/wp/wp4414038.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background12 {
+    background-image: url("https://wallpapertag.com/wallpaper/full/2/5/4/578672-most-popular-winter-background-wallpaper-1920x1200-for-pc.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
