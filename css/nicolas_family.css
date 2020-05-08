@@ -1,7 +1,6 @@
 h2,
 header {
     /* background-color: lightblue;*/
-    color: white;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-left: 50px;
@@ -21,7 +20,6 @@ header {
 
 .grid-item {
     border-style: solid;
-    color: white;
     margin-left: 20px;
     margin-right: 20px;
     padding: 15px;
@@ -43,6 +41,12 @@ html {
     font-family: 'Merriweather Sans', sans-serif;
     text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
     text-align: center;
+    color: white;
+}
+
+.h0 {
+    margin: 10px;
+    text-align: right;
 }
 
 .row {
