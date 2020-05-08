@@ -1,16 +1,3 @@
-a:link,
-a:visited {
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-a:hover,
-a:active {
-    background-color: red;
-}
-
 h2,
 header {
     /* background-color: lightblue;*/
@@ -21,21 +8,41 @@ header {
     font-size: 30px;
 }
 
+a:hover,
+a:active {
+    background-color: white;
+}
+
+a:link,
+a:visited,
 .grid-container {
-    display: grid;
+    display: inline-grid;
+    background-color: yellowgreen;
     grid-template-columns: auto auto auto auto;
     grid-gap: 40px 60px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
+    padding-top: 25px;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 30px;
+    align-items: center;
 }
 
 .grid-item {
-    border-style: solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    border: 2px solid black;
+}
+
+a {
+    text-align: center!important;
+    background-color: red!important;
+}
+
+.grid-contents {
+    text-align: center!important;
 }
 
 body {
@@ -53,14 +60,9 @@ html {
     box-sizing: border-box;
     font-family: 'Merriweather Sans', sans-serif;
     text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
-    text-align: center;
     color: white;
+    text-align: center;
     text-decoration: none;
-}
-
-.h0 {
-    margin: 10px;
-    text-align: right;
 }
 
 .row {
