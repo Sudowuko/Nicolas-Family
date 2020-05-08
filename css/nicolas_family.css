@@ -17,13 +17,10 @@ a:link,
 a:visited,
 .grid-container {
     display: inline-grid;
-    background-color: yellowgreen;
     grid-template-columns: auto auto auto auto;
     grid-gap: 40px 60px;
     padding-bottom: 25px;
     padding-top: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
     font-size: 30px;
     align-items: center;
 }
@@ -32,13 +29,14 @@ a:visited,
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: purple;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 
 a {
+    padding-right: 50px;
+    padding-left: 50px;
+    grid-template-columns: auto !important;
     text-align: center!important;
-    background-color: red!important;
 }
 
 .grid-contents {
