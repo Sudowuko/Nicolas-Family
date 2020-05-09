@@ -23,6 +23,20 @@ html {
     background-size: cover;
 }
 
+a:hover,
+a:active {
+    color: skyblue;
+}
+
+a:link,
+a:visited,
+.back {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Merriweather Sans', sans-serif;
