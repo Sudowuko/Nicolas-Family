@@ -23,18 +23,51 @@ html {
     background-size: cover;
 }
 
+a:link,
+a:visited,
+.menu {
+    display: inline-grid;
+    grid-template-columns: auto;
+    grid-gap: 40px 60px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 30px;
+    align-items: left;
+}
+
+a {
+    padding-right: 50px;
+    padding-left: 50px;
+    grid-template-rows: auto !important;
+    text-align: left!important;
+}
+
 a:hover,
 a:active {
     color: skyblue;
 }
 
+
+/*
 a:link,
 a:visited,
-.back {
+.menu_contents {
     margin-top: 20px;
     padding: 10px;
-    text-align: left;
+    text-align: left!important;
     font-size: 30px;
+}
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    display: inline;
 }
 
 * {
@@ -54,9 +87,9 @@ a:visited,
 
 .background1 {
     background: url("https://wallpapertag.com/wallpaper/full/4/1/2/602071-download-desktop-backgrounds-mountains-1920x1080-high-resolution.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
